@@ -1,21 +1,36 @@
 # Project_02_Team_02
 ## 題目：
-* 保本型選擇權投資
+* Line-Bot 選擇權自動裝置
+
+![[加入我們的 Bot]](Line-bot.png)
+
 ## 組員：
-* M064810011_劉冠廷
-* M064030046_田高銘	
-* M064810001_徐上元	
-* M064810002_林峻緯	
-* M064030021_蘇柏文
+* M064810011_劉冠廷:satisfied:
+
+* M064030046_田高銘:smirk:
+
+* M064810001_徐上元:heart_eyes:
+
+* M064810002_林峻緯:unamused:	
+
+* M064030021_蘇柏文:relaxed:
+
 ## 動機：
-* 在台灣，每1分鐘就有60秒過去，一年下來我們的定存利息卻只有1趴左右，戶頭如同一攤死水，廣大投資散戶、菜籃族難道只能甘於現狀嗎？試算定存利息並進行保本型投資，透過選擇權的高槓桿與保守型策略的結合，追求超越定存利率的報酬率，同時避免較不懂投資的散戶將錢白白撒入股海裡。
+* 在台灣，每1分鐘就有60秒過去...。時間再走，觀念要有，打造選擇權投資客的省時省力好幫手。:laughing::laughing::laughing:
+
 ## 計畫摘要：
-* Step_1：請用戶輸入戶頭金額，並透過網路上定存利率設算一年可得多少利息。
-* Step_2：將試算出的定存利息視為投資於選擇權的資本，並計算可以投資幾組部位。
-* Step_3：讓用戶選擇想使用的保本型策略，例如單純當買方、Bull Spread 或是 Bear Spread等等。
-* Step_4：利用台指歷史資料進行回測，看看報酬率是否真能擊敗定存利率。
-* 分工部分：基本上期望一個人負責一個step
-* 完成度：當然是越高越好囉! wwwww
+* Step_1：使用套件PhantomJS進行網路爬蟲，爬台指選擇權的即時資料。:beetle:
+
+* Step_2：整理資料，並且試算保證金。:iphone:
+
+* Step_3：將程式碼寫成模組，命名為MyMod。:key:
+
+* Step_4：將MyMod套入line-Bot的程式碼裡面，並且推上Heroku。:pray:
+
+* 完成度：已完成Line-Bot，名為選擇權自動裝置。:clap:
+
 ## 連結參考：
+* [如何爬選擇權即時報價](http://yvictor.logdown.com/posts/996770)
 * [台灣期貨交易所](http://www.taifex.com.tw/chinese/index.asp)
-* [台灣銀行定存利率試算](http://rate.bot.com.tw/trial/t01)
+* [PhantomJS](http://phantomjs.org/)
+* [阿肥-Bot](https://github.com/twtrubiks/line-bot-tutorial)
